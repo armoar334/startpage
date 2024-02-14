@@ -18,7 +18,27 @@ a {
     flex-basis: 30%;  /* width minus margins */
 }
 
+input {
+	background-color: #fef7e4;
+	caret-color: #261619;
+	color: #261619;
+	font-family: DejaVu Sans Mono;
+	font-size: 40px;
+	border-style: none;
+	text-decoration: none;
+	text-align: center;
+	outline: none;
+	width: 50%;
+	margin-left: 25%;
+	margin-right: 25%;
+}
+
+input::placeholder {
+	color: #CBCBCB;
+}
+
 .container {
 	display: flex;
     flex-flow: row wrap;
+    height: 80%;
 }
